@@ -10,7 +10,7 @@ const questions = [
         correct: 2
     },
     {
-        question: "3. Wie viele Städte in Deutschland sind und andere europäische Länder sind mittlerweile an dem Stolpersteine-Projekt beteiligt?",
+        question: "3. Wie viele Städte in Deutschland und andere europäische Länder sind mittlerweile an dem Stolpersteine-Projekt beteiligt?",
         answers: ["a) 1265 Städte in Deutschland und 21 Länder.", "b) 1000 Städte in Deutschland und 10 Länder.", "c) 500 Städte in Deutschland und 5 Länder.", "d) 1500 Städte in Deutschland und 30 Länder."],
         correct: 0
     }
@@ -41,7 +41,7 @@ const questions = [
     ,
     {
         question: "8. Warum habe ich die Stolpersteine in Duisburg nach Stadtbezirke sortiert?",
-        answers: ["a) Um zu zeigen in welchem Stadtteil die meisten Opfer lebten.", "b) Um Einblicke in das ehemalige Leben der Juden in Duisburg und des Nationalsozialismus zu geben .", "c) Um zu zeigen, in welchen Stadtteilen die meisten Opfer Lebten."],
+        answers: ["a) Um zu zeigen in welchem Stadtteil die meisten Opfer lebten.", "b) Um Einblicke in das ehemalige Leben der Juden in Duisburg und des Nationalsozialismus zu geben ."],
         correct: 1
     }
     
