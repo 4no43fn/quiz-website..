@@ -41,7 +41,7 @@ const questions = [
     ,
     {
         question: "8. Warum habe ich die Stolpersteine in Duisburg nach Stadtbezirke sortiert?",
-        answers: ["a) Um zu zeigen in welchem Stadtteil die meisten Opfer lebten.", "b) Um Einblicke in das ehemalige Leben der Juden in Duisburg und des Nationalsozialismus zu geben ."],
+        answers: ["a) Um zu zeigen in welchem Stadtteil die meisten Opfer lebten.", "b) Um Einblicke in das ehemalige Leben der Juden in Duisburg und des Nationalsozialismus zu geben."],
         correct: 1
     }
     
