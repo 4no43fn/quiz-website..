@@ -23,8 +23,8 @@ const questions = [
     ,
     {
         question: "5. Wie viel kostet ein Stolperstein?",
-        answers: ["a) 70$", "b) 100 Euro", "c) 120 Euro"],
-        correct: 2
+        answers: ["a) 70$", "b) 120 Euro", "c) 100 Euro"],
+        correct: 1
     }
     ,
     {
