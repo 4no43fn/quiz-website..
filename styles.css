@@ -52,3 +52,27 @@ main {
 #next-button:hover {
     background-color: #45a049;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.correct {
+    background-color: #4CAF50; /* grün */
+    color: white;
+    font-weight: bold;
+}
+
+.wrong {
+    background-color: #f44336; /* rot */
+    color: white;
+    font-weight: bold;
+}
+
