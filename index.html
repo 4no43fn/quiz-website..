@@ -34,3 +34,33 @@
 </head>
 
 
+
+
+
+<script>
+(function() {
+    // Sound-System vorbereiten
+    const audio = document.getElementById('buttonSound');
+
+    // Sicherstellen, dass der AudioContext auch auf Mobile aktiviert wird
+    document.addEventListener('click', () => {
+        audio.play().catch(() => {}); // Force first unlock
+        audio.pause();
+        audio.currentTime = 0;
+    }, { once: true });
+
+    // Globaler Event-Listener auf alle Buttons
+    document.addEventListener('click', function(e) {
+        const target = e.target.closest('button, [role="button"], input[type="button"], input[type="submit"]');
+        if (target) {
+            // Kurz zurücksetzen falls vorher gespielt
+            audio.pause();
+            audio.currentTime = 0;
+            audio.play().catch((err) => {
+                console.warn("Audio play failed:", err);
+            });
+        }
+    });
+})();
+</script>
+
