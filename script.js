@@ -95,18 +95,6 @@ showQuestion();
 nextButton.disabled = true;
 
 
-<script>
-  const audio = new Audio("https://www.myinstants.com/media/sounds/button-click.mp3");
-
-  document.addEventListener("DOMContentLoaded", () => {
-    document.querySelectorAll("button").forEach(button => {
-      button.addEventListener("click", () => {
-        audio.currentTime = 0;
-        audio.play();
-      });
-    });
-  });
-</script>
 
 
 
