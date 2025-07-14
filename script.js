@@ -101,12 +101,4 @@ nextButton.disabled = true;
 
 
 
-//const answers = ["Antwort A", "Antwort B", "Antwort C", "Antwort D"];
-const answersContainer = document.getElementById("answers");
-
-answers.forEach(text => {
-    const btn = document.createElement("button");
-    btn.textContent = text;
-    answersContainer.appendChild(btn);
-});
 
