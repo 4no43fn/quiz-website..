@@ -93,3 +93,17 @@ nextButton.addEventListener("click", () => {
 
 showQuestion();
 nextButton.disabled = true;
+
+
+
+
+if (selectedIndex === correctIndex) {
+    score++;
+    buttons[selectedIndex].classList.add("correct");
+    alert("Richtig!");
+} else {
+    document.getElementById("wrong-sound").play();
+    buttons[selectedIndex].classList.add("wrong");
+    buttons[correctIndex].classList.add("correct");
+    // ...
+}
