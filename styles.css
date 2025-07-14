@@ -80,12 +80,12 @@ main {
 
 
 
-/* Globale 3D-Tiefe für Button-Container */
+
 #answers, #next-button {
     perspective: 800px;
 }
 
-/* Einheitliches Button-Styling */
+
 button {
     background-color: #3498db;
     color: white;
@@ -101,19 +101,19 @@ button {
     will-change: transform;
 }
 
-/* Hover: Button kommt näher */
+
 button:hover {
     transform: translateZ(4px);
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.3);
 }
 
-/* Active: Button wird reingedrückt */
+
 button:active {
     transform: translateZ(-8px);
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Optional: Fokus-Zustand für Accessibility */
+
 button:focus {
     outline: 2px solid #1b4f72;
     outline-offset: 2px;
