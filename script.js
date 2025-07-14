@@ -101,7 +101,7 @@ nextButton.disabled = true;
 
 
 
-.//const answers = ["Antwort A", "Antwort B", "Antwort C", "Antwort D"];
+//const answers = ["Antwort A", "Antwort B", "Antwort C", "Antwort D"];
 const answersContainer = document.getElementById("answers");
 
 answers.forEach(text => {
