@@ -96,6 +96,11 @@ nextButton.disabled = true;
 
 
 
+function playClickSound() {
+  const audio = document.getElementById("click-sound");
+  audio.currentTime = 0; // Zurückspulen bei schnellem Klicken
+  audio.play();
+}
 
 
 
